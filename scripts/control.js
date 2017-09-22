@@ -8,7 +8,7 @@ $("document").ready(
 );
 
 function init(){
-  game = new Game();
+  game = new Game()
   game.start();
 }
 

@@ -48,9 +48,9 @@ var Game = function() {
         this.board.grid[this.winCombinations[i][0]] !== " ") {
         this.gameOver = true;
         $('.playerText').text('Player ' + this.player + ' wins');
-      //  $('.playerText').replace(this.a);
+
         this.board.renderBoard();
-        //this.board.renderBoardAtTheEnd(this.player);
+        this.board.renderBoardAtTheEnd(this.player);
       }
     }
   };
